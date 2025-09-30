@@ -10,4 +10,4 @@ const nextConfig = {
   assetPrefix: process.env.GITHUB_PAGES === 'true' ? '/cursor-hover-mask-effect/' : '',
 }
 
-export default nextConfig
+module.exports = nextConfig
