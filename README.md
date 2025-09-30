@@ -1,34 +1,42 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# ✨ Cursor Hover Mask Effect
 
-## Getting Started
+> A mesmerizing cursor-following mask effect built with Next.js and Framer Motion
 
-First, run the development server:
+[![Live Demo](https://img.shields.io/badge/🚀-Live%20Demo-blue?style=for-the-badge)](https://ishusingshse.github.io/cursor-hover-mask-effect/)
+[![Next.js](https://img.shields.io/badge/Next.js-13.4-black?style=flat&logo=next.js)](https://nextjs.org/)
+[![Framer Motion](https://img.shields.io/badge/Framer%20Motion-10.14-ff0066?style=flat&logo=framer)](https://www.framer.com/motion/)
+
+## 🎭 What's This?
+
+An interactive visual experience where text reveals itself through a dynamic mask that follows your cursor. Watch as typography comes alive with smooth animations and responsive design.
+
+## ⚡ Quick Start
 
 ```bash
+# Clone & Install
+git clone https://github.com/IshuSinghSE/cursor-hover-mask-effect.git
+cd cursor-hover-mask-effect
+npm install
+
+# Run Development Server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) and move your cursor around! 🎪
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+## 🛠️ Tech Stack
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- **Next.js 13** - React framework with App Router
+- **Framer Motion** - Smooth animations & gestures
+- **SCSS Modules** - Modular styling
+- **GitHub Actions** - Auto-deployment to GitHub Pages
 
-## Learn More
+## 🚀 Deployment
 
-To learn more about Next.js, take a look at the following resources:
+This project auto-deploys to GitHub Pages on every push to `master`. The magic happens in `.github/workflows/deploy.yml`.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+**Live at:** `https://ishusingshse.github.io/cursor-hover-mask-effect/`
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+*Built with ❤️ for the GDG Tech Winter Break Web Dev Session*
