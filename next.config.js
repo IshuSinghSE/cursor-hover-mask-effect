@@ -1,13 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
   trailingSlash: true,
   images: {
     unoptimized: true
   },
-  // Configure for GitHub Pages deployment
-  basePath: process.env.NODE_ENV === 'production' ? '/cursor-hover-mask-effect' : '',
-  assetPrefix: process.env.NODE_ENV === 'production' ? '/cursor-hover-mask-effect/' : '',
+  // Configure for GitHub Pages deployment only when deploying to GitHub Pages
+  // For local production testing, these should be empty
+  basePath: process.env.GITHUB_PAGES === 'true' ? '/cursor-hover-mask-effect' : '',
+  assetPrefix: process.env.GITHUB_PAGES === 'true' ? '/cursor-hover-mask-effect/' : '',
 }
 
-module.exports = nextConfig
+export default nextConfig
